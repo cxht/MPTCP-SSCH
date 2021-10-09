@@ -14,7 +14,11 @@ c functions used in python files are written in "sr.h", and "cdef.pyx" include "
 ''cython -a cdef.pyx''
 ''cp build/lib.linux-x86_64-3.7/gym/envs/classic_control/cdef.cpython-37m-x86_64-linux-gnu.so cdef.so''
 
-2. RL training framework is in elegantRL/
+
+
+2. RL training framework is in NAF-tensorflow/
+
+2+. RL training framework is in elegantRL/
 ''python setup.py install''
 ''python demo.py''
 
